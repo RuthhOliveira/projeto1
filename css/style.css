@@ -35,6 +35,7 @@ section.topo {
 section.topo p {
   color: #fafafa;
   font-weight: bolder;
+  text-transform: uppercase;
 }
 
 section.topo i {
@@ -99,7 +100,6 @@ section.menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #fec106;
 }
 
 section.menu ul {
@@ -126,6 +126,7 @@ section.menu ul li a {
 
 section.menu ul li a:hover {
   border-bottom: 3px solid #c31532;
+  color: #c31532;
 }
 
 section.banner img {
@@ -143,6 +144,7 @@ section.banner img {
 
 .ofertas p.oferta {
   font-size: 20px;
+  text-transform: uppercase;
 }
 
 .ofertas p.oferta::after {
@@ -199,6 +201,16 @@ section.banner img {
   font-weight: bold;
 }
 
+.container-ofertas .cards-ofertas .card i {
+  color: #c31532;
+  padding-top: 10px;
+}
+
+.bannerPraia {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
 .email {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -209,11 +221,13 @@ section.banner img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 10px;
 }
 
 .email p {
   font-weight: bolder;
   margin-right: 20px;
+  text-transform: uppercase;
 }
 
 .email input {
@@ -221,6 +235,7 @@ section.banner img {
   border-bottom: 1px solid #000;
   background-color: transparent;
   margin-right: 20px;
+  text-align: center;
 }
 
 .email button {
@@ -234,8 +249,175 @@ section.banner img {
 }
 
 .email button:hover {
-  background: #0b1828;
+  background: #c31532;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.formas-pgt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.formas-pgt ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ececec;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+}
+
+.formas-pgt ul p {
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.formas-pgt ul li {
+  width: 40px;
+  padding: 20px 80px 10px 10px;
+}
+
+.formas-pgt ul li img {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.redes-sociais {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.redes-sociais p {
+  font-weight: bolder;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.redes-sociais li {
+  list-style: none;
+}
+
+.redes-sociais li a i {
+  color: #000;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.redes-sociais li a i:hover {
+  color: #c31532;
+}
+
+footer {
+  width: 100vw;
+  background: #ececec;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+footer .informacoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 20px 0 0 120px;
+  width: 450px;
+}
+
+footer .informacoes li {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+footer .informacoes li i {
+  color: #000;
+  font-size: 30px;
+}
+
+footer .informacoes li i:hover {
+  color: #c31532;
+}
+
+footer .informacoes li p {
+  font-weight: bolder;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+footer .informacoes li.esp {
+  margin-left: 40px;
+}
+
+.container-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.container-footer .sobre, .container-footer .perguntas {
+  margin: 40px 0 40px 40px;
+  text-align: center;
+}
+
+.container-footer .sobre p, .container-footer .perguntas p {
+  padding-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container-footer .sobre a, .container-footer .perguntas a {
+  color: #000;
+  text-decoration: none;
+}
+
+.container-footer .sobre li, .container-footer .perguntas li {
+  padding-top: 15px;
+}
+
+.container-footer .sobre li:hover, .container-footer .perguntas li:hover {
+  border-bottom: 1px solid #000;
+  font-weight: bold;
+}
+
+.container-footer .sobre {
+  padding-left: 100px;
+  border-left: 1px solid #ccc;
+}
+
+.footer-ult {
+  text-align: center;
+}
+
+.footer-ult p {
+  color: #aaa;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c31532;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */
